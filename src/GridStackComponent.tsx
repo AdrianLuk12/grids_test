@@ -8,19 +8,10 @@ const GridStackComponent: React.FC = () => {
 
     useEffect(() => {
         if (gridRef.current) {
-            const container = document.querySelector('xyz');
-            const containerWidth = 1920;
-            const cellSize = Math.floor(containerWidth / 12); // 12 columns
-            const windowHeight = window.innerHeight;
-
             const grid = GridStack.init({
-                //cellHeight: 200,
                 acceptWidgets: true,
                 animate: true,
                 margin: 0,
-
-                
-
             });
             grid.removeAll();
 
