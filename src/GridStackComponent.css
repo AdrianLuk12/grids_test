@@ -8,12 +8,10 @@ html {
 }
 
 .xyz {
-    border: 10px outset #cbdbb6;
+    border: 10px outset #f9d6cf;
     background-color: #525757;
     box-sizing: border-box;
     width: 430px;
-    max-width: 800px;
-    box-sizing: border-box;
 }
 
 .grid-stack {
@@ -27,7 +25,7 @@ html {
     align-items: center;
     background-color: #525757;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     /* circle padding can be adjusted */
     box-sizing: border-box;
 }
