@@ -44,16 +44,7 @@ const GridStackComponent: React.FC = () => {
                 {x: 3, y: 8, w: 3, h: 2, content: `<div class="circle">3x2</div>`},
             ];
             
-            grid.load(serializedData);
-            /*
-            for (let i = 0; i < 60; i++) {
-                const col = (i % 6) * 2;
-                const row = Math.floor(i / 6) * 2;
-                const content = `<div class="circle">${i + 1}</div>`;
-                grid.addWidget({ x: col, y: row, w: 1, h: 1, content: content });
-            }
-            */
-            
+            grid.load(serializedData);          
                 
         }
     }, []);
