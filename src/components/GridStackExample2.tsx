@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { GridStack } from 'gridstack';
 import 'gridstack/dist/gridstack.min.css';
 import 'gridstack/dist/gridstack-extra.css';
-import './GridStackComponent.css'
+import './GridStackExample2.css'
 
 const GridStackExample2: React.FC = () => {
     const gridRef = useRef<HTMLDivElement>(null);
