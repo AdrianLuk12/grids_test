@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           </li>
           <li>
             <Link to="/example2">
-              <button className='button-6'>Example 2 (pictures)</button>
+              <button className='button-6'>Example 2 (drag)</button>
             </Link>
           </li>
         </ul>
