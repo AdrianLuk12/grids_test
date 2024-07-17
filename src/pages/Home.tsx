@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           </li>
           <li>
             <Link to="/example2">
-              <button className='button-6'>Example 2 (drag)</button>
+              <button className='button-6'>Example 2 (drag embeds)</button>
             </Link>
           </li>
         </ul>

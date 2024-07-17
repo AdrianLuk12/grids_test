@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 
@@ -12,6 +12,7 @@ html {
     background-color: #525757;
     box-sizing: border-box;
     width: 430px;
+    display: inline-block;
 }
 
 .grid-stack {
@@ -40,4 +41,24 @@ html {
     align-items: center;
     font-weight: bold;
     color: #525757;
+}
+
+#trash {
+    height: 130px;
+    width: 130px;
+    display: inline-flex;
+    text-align: center;
+    background-color: rgba(204, 104, 87, 1.0);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20%;
+    transition: all .3s ease-in-out;
+}
+
+#trash:hover {
+    height: 140px;
+    width: 140px;
+    background-color: rgba(204, 104, 87, 0.7);
 }
