@@ -7,13 +7,12 @@ html {
   display: inline-flex;
   justify-content: center;
 }
-
 ul {
   list-style-type: none;
 }
 
 li {
-  padding: 10px;
+  margin: 10px;
 }
 
 h1 {

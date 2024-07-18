@@ -1,19 +1,12 @@
-body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: inline-flex;
-    justify-content: center;
-}
-
 .xyz {
     border: 10px outset #f9d6cf;
     background-color: #525757;
+    /*background-color: #FFFBDB;*/
     box-sizing: border-box;
     width: 430px;
     display: inline-block;
     margin: 20px;
+    position: fixed;
 }
 
 .grid-stack {
@@ -27,9 +20,9 @@ html {
     align-items: center;
     background-color: #525757;
     color: #fff;
-    padding: 5px;
-    /* circle padding can be adjusted */
+    /*padding: 10px; /* circle padding can be adjusted */
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .circle {
